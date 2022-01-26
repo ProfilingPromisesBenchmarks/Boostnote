@@ -200,7 +200,8 @@
     "require": [
       "babel-register",
       "./tests/helpers/setup-browser-env.js",
-      "./tests/helpers/setup-electron-mock.js"
+      "./tests/helpers/setup-electron-mock.js",
+      "/home/drasync/ProfilingPromisesAnalysis/asyncHooks_require.js"
     ],
     "babel": "inherit"
   },
@@ -211,7 +212,8 @@
     },
     "setupFiles": [
       "<rootDir>/tests/jest.js",
-      "jest-localstorage-mock"
+      "jest-localstorage-mock",
+      "/home/drasync/ProfilingPromisesAnalysis/asyncHooks_require.js"
     ]
   },
   "husky": {
